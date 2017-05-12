@@ -2,4 +2,5 @@
 currentbranch=`cat .arc`
 git add -A
 git commit -m"ddd"
-git push -u origin D$currentbranch
+git push origin $currentbranch:D$currentbranch
+ 
